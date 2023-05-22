@@ -1,5 +1,5 @@
 
-set sql_mode = '';
+set SQL_Mode = '';
 
 select p.PRO_ID, p.PRO_NAME, o.ORD_DATE from product p
 inner join supplier_pricing sp
