@@ -1,4 +1,4 @@
-set sql_mode ='';
+set SQL_Mode ='';
 select S.SUPP_NAME, SP_RO_2.*,
 
 CASE
