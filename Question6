@@ -1,4 +1,4 @@
-select sql_mode='';
+set sql_mode='';
 select C.CAT_ID, C.CAT_NAME, 
 Min(SP_P.MinPrice) as 'MinPrice'
  from Category C inner join (
